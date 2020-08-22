@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(./img/photo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 250px;
+    margin: 0 auto;
+}
+.button{
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button,
+.popup_button{
+    background-color: #fff;
+    border-radius: 50%;
+    border-style: dotted;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.popupBlock{
+    display: block;
+    position: absolute;
+    padding: 15px;
+    max-width: 350px;
+    background-color: #fff;
+    box-shadow: 20px -10px black;
+    visibility: hidden;
+    opacity: 0;
+}
